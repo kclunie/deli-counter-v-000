@@ -17,7 +17,7 @@ def take_a_number(array, name)
     array << name
     puts "Welcome, #{name}. You are number #{array.length} in line."
   elsif array.length > 1
-    array(name).push
+    array.push(name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 end
