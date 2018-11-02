@@ -12,16 +12,16 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
-  if array.length == 0
-    array << name
-    puts "Welcome, #{name}. You are number #{array.length} in line."
-  elsif array.length > 1
-    array.push(name)
-    puts "Welcome, #{name}. You are number #{array.length} in line."
-  else 
-end
-end
+#def take_a_number(array, name)
+ # if array.length == 0
+  #  array << name
+   # puts "Welcome, #{name}. You are number #{array.length} in line."
+  #elsif array.length > 1
+   # array.push(name)
+    #puts "Welcome, #{name}. You are number #{array.length} in line."
+  #else 
+#end
+#end
 
 def take_a_number(array, name)
   array << name
